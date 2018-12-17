@@ -1,0 +1,10 @@
+class Config:
+    API_URL = "https://api.spotify.com/v1"
+    CLIENT_ID = "77d3c8cc789b461682e7b34c55791cc9"
+    SPOTIFY_SCOPE = "user-library-read playlist-modify-public playlist-modify-private playlist-read-collaborative playlist-read-private"
+    SPOTIFY_AUTH = "https://accounts.spotify.com/authorize"
+    SPOTIFY_URI = "https://api.spotify.com/v1"
+    SPOTIFY_TOKEN_REFRESH_URI = "https://accounts.spotify.com/api/token"
+    WEATHER_URI = "https://api.weatherbit.io/v2.0/current"
+    WEATHER_KEY = "f46083cf14094054b1271d36458d5aa8"
+    REDIRECT_URI = "http://localhost:3000/fetching?"
